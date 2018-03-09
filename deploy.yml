@@ -1,0 +1,10 @@
+name: COBI-ui
+image: docker.mdl.cloud/cobi/ui
+
+tags:
+  - private
+
+service:
+  container:
+    count: 1
+    port: 8080
